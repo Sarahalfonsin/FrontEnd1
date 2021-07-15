@@ -1,0 +1,46 @@
+.Logo{
+    margin:0;
+    background-color: #E5E5E5;
+    text-align: center;
+    ;
+}
+.Titulo{
+    text-align: center;
+    margin:0;
+    background-color:#C4C4C4;
+    letter-spacing: 10px;
+    color: #005677;
+    margin-bottom: 10%;
+}
+
+h3{
+    padding: 10px;
+    background: #C4C4C4;
+    color: #005677;
+    letter-spacing: 5px;
+}
+span{
+    Font-weight: bold;
+}
+.span{
+    Font-style: italic;
+}
+dd{
+    padding-bottom: 8px;
+    margin-inline-start: 79px;
+}
+dl{
+    Line-height: 22px
+}
+
+.Footer{
+    margin-top: 100px;
+    background-color: hsl(197, 100%, 23%);
+    color:white;
+    text-align:center;
+    padding: 0.2%;
+    
+}
+.Logos{
+    padding: 2px
+}
