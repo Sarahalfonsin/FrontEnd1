@@ -30,6 +30,9 @@ header{
     margin-left: 20px;
 }
 /*ACA EMPIEZA EL MAIN*/
+main{
+    text-align: center;
+}
 .cardBatman{
     width: 300px;
     height: 527px;
