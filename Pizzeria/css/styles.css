@@ -60,20 +60,21 @@ h1 {
 main {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content:space-evenly;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left:19px;
+  margin-right:19px;
 }
 
 .boxIzquierda {
   background-image: url(../img/delivery.png);
-  background-repeat: no-repeat;
+  background-repeat:round;
   border-radius: 10px;
-  width: 490px;
+  width: 50%;
   height: 350px;
 }
 .boxIzquierda h3 {
+  padding-left: 20px;
   margin-left: 30px;
   margin-top: 20px;
 }
@@ -81,22 +82,22 @@ main {
   color: red;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 25px;
 }
 .subtituloBlanco {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 25px;
 }
 .boxDerecha {
   background-color: white;
   border-radius: 10px;
-  width: 490px;
+  width: 50%;
   height: 350px;
 }
 .boxDerecha h3 {
-  padding-top: 33px;
+  margin-top: 33px;
   text-align: center;
 }
 .boxLista {
