@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+/*Header*/
+.head1{
+    background-color: #1CD1B0;
+    padding-top: 10px; 
+    height:38px;
+}
+.head1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    margin-left: 10px;
+}
+header{
+    position: sticky;
+    top:0;
+    z-index: 999;
+    background-color: #00669F;
+    height:101px;
+    padding-top: 28px;
+    box-shadow: 0px 1px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.textHeader {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+/*ACA EMPIEZA EL MAIN*/
+main{
+    padding-left: 130px;
+}
+.cardBatman{
+    width: 300px;
+    height: 527px;
+    background-color: #F3F3F3;
+    background-image: url(../img/fondoCardBatman.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 32px;
+    box-shadow: 0px 2px 6px 0px grey;
+    box-shadow: 0px 1px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.foto{
+    border-radius: 60px;
+    position: absolute;
+    left: 90px;
+    top:128px
+}
+.textop{
+    position: absolute; 
+    width:267px;
+    height:113px ;
+    left:16px;
+    top: 268px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.textop h3{
+    font-size: 30px;
+    line-height: 22px;
+    text-align: center;
+}
+.textop p{
+    position: relative;
+    top: 30px;
+    color: #333333;
+
+}
+.textop a{
+    position: absolute;
+    left: 82px;
+    height: 48.52px;
+    top: 200px;
+    padding-top: 15px;
+    padding-left: 32px;
+    padding-right: 35px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #00669F;
+    font-size: 15px; 
+}
+.cardHarley{
+    width: 300px;
+    height: 527px;
+    background-color: #F3F3F3;
+    background-image: url(../img/fondoHarley.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 32px;
+    box-shadow: 0px 2px 6px 0px grey;   
+    box-shadow: 0px 1px 4px 7px rgba(0, 0, 0, 0.25);
+    }
+.cardBattman{
+    width: 300px;
+    height: 527px;
+    background-color: #F3F3F3;
+    background-image: url(../img/fondoCardBatman.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 32px;
+    box-shadow: 0px 2px 6px 0px grey;
+    box-shadow: 0px 1px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*ACA EMPIEZA EL FOOTER*/
+footer {
+    background-color: #00669F;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Header *
+*{
+    box-sizing: border-box; 
+    margin: 0%;
+ }
+ .bigcontainer{
+    position:relative;
+    margin: right 0;px;
+}
+.head1 {
+    background-color: #1CD1B0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
+}
+.head2 {
+    position:relative;
+    z-index: 999;
+    top:0;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 28px;
+    background-color: #00669F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    width: auto;
+}
+*/
+/* Body */
+/*
+.bigcontainer{
+    position:relative;
+}
+.container {
+    width: 300px;
+    height: 527px;
+    background-color: #F3F3F3;
+    background-image: url(../img/fondoCardBatman.png);
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    margin-top: 154px;
+    margin-left: 1px;
+    box-shadow: 0px 2px 6px 0px grey;
+    display: inline-block;
+}
+.imgCorazon{
+    position:absolute;
+    width: 30px;
+    height: 26.25px;
+    top: 15px;
+    left: 21px;
+
+}
+.fotoBatman {
+    border-radius: 60px;    
+    position: absolute;
+    top: 128px;
+    left: 90px;
+}
+.container h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    top: 247px;
+    left: 89px;
+}
+.text1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: absolute;
+    top: 312px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #00669F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 37px;
+    position: absolute;
+    left: 85px;
+    bottom: 18px;
+}
+
+.container2 {
+    width: 300px;
+    height: 527px;
+    background-color: #F3F3F3;
+    background-image: url(../img/fondoHarley.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 1px;
+    margin-left: 320px;
+    margin-bottom: 538px;
+    margin-right: 362px;
+    box-shadow: 0px 2px 6px 0px grey;
+    display: inline-block;
+}
+.fotoharley{
+    border-radius: 60px;    
+    position: absolute;
+    top: 128px;
+    left: 90px;
+}
+
+.container3 {
+    width: 300px;
+    height: 527px;
+    background-color: #F3F3F3;
+    background-image: url(../img/fondoCardBatman.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block; 
+    margin-left: 320px;
+    box-shadow: 0px 2px 6px 0px grey;
+}
+*/
+/* Footer */
+/*
+footer {
+    background-color: #00669F;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+}
+*/

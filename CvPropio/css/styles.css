@@ -1,4 +1,5 @@
-/*Header */
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2? family = Rubik: wght @ 300; 400; 500 & display = swap'); 
 .Logo{
     margin:0;
     background-color: #E5E5E5;
@@ -13,12 +14,9 @@
     color: #005677;
     margin-bottom: 10%;
 }
- /*Main*/
-.container{
-    margin: 40px auto;
-    width: 70%
-}
+
 h3{
+
     padding: 10px;
     background: #C4C4C4;
     color: #005677;
@@ -27,7 +25,7 @@ h3{
 span{
     Font-weight: bold;
 }
-.personal span{
+.span{
     Font-style: italic;
 }
 dd{
@@ -37,17 +35,14 @@ dd{
 dl{
     Line-height: 22px
 }
-/*Footer*/
+
 .Footer{
-    margin-top: 100px;
+    margin-top: 50px;
     background-color: hsl(197, 100%, 23%);
+    color:white;
     text-align:center;
     padding: 0.2%;
     
-}
-h2{
-    color:white;
-    display:inline-block;
 }
 .Logos{
     padding: 2px
