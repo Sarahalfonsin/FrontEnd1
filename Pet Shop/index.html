@@ -1,74 +1,117 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Pet Shop</title>
   </head>
+
   <body>
     <header>
-      <div>
-        <p>Grandes ofertas en comedores</p>
-        <p>Español</p>
-        <p>Arg$</p>
-      </div>
-      <div>
-        <img src="img/logo.svg.svg" alt="logo" />
-        <p>Front</p>
-        <p>Cat&Dog</p>
-        <img src="img/logo.svg2.svg" alt="logo" />
-        <nav>
-          <ul>
-            <li><a href="www.categorias.com">Categorias</a></li>
-            <li><a href="www.pets.com">Pets</a></li>
-            <li><a href="www.nosotros.com">Nosotros</a></li>
-            <li><a href="www.contacto.com">Contactenos</a></li>
-          </ul>
-        </nav>
-      </div>
+      <div class="headerSup">
+        <span class="texto1">
+            Grandes ofertas en comederos
+        </span>
+        <span class="todoelnav">
+            <select name="Idioma"class="Idioma" >
+                <option value="">Español</option>
+                <option value="">Portugues</option>
+                <option value="">Ingles</option>
+            </select>
+            <select name="Moneda" class="Moneda">
+                <option value="">ARG$</option>
+                <option value="">$R</option>
+                <option value="">U$D</option>
+            </select>
+        </span>
+    </div>
+      <div class="headerInf">
+
+          <h1> <i class="fas fa-dog"></i>
+              <span>Front</span>  Cat&Dog
+              <i class="fas fa-cat"></i>
+          </h1>
+
+          <nav>
+              <ul>
+                  <li><a href="#"><i class="fas fa-paw"></i>Categorias</a></li> 
+                  <li><a href="#"><i class="fas fa-paw"></i>Pets</a></li>
+                  <li><a href="#"><i class="fas fa-paw"></i>Nosotros</a></li>
+                  <li><a href="#"><i class="fas fa-paw"></i>Contactanos</a></li>
+              </ul>
+          </nav>
     </header>
     <main>
-      <section>
-        <img src="img/Bowl.png" alt="Banner" />
-        <h2>Es un placer tenerte aquí</h2>
-        <h4>¡Comederos en descuento!</h4>
-        <h3>Comederos</h3>
+      <section class="Banner" >
+        <div class="banner1">
+        <p class="cuadrado">Es un placer tenerte aquí</p>
+        <p class="desc">¡Comederos en descuento!</p>
+        <p class="cuadro"><a href="#">Comederos</a></p>
+      </div>
       </section>
-      <section>
-        <img src="IMG/Huella.png" alt="Huella" />
-        <h2 align="center">Productos Destacados</h2>
-        <ul>
-          <li>Comederos</li>
-          <li>Accesorios</li>
-          <li>Comidas</li>
+      <section class="section2">
+        <i class="fas fa-paw"></i>
+        <p class="destacados" >Productos Destacados</p>
+        <ul class="lista">
+          <li><a href="#">Accesorios </a></li>
+          <li>-</li>
+          <li><a href="#">Comidas </a></li>
+          <li>-</li>
+          <li><a href="#">Comederos</a></li>
         </ul>
-        <div>
-          <a href="www.imagen.com"
-            ><img src="img/churrasquito.jpg" alt="churrasquito"
+      </section>
+        <section>
+          <div>
+          <a href="#"><img src="img/churrasquito.jpg" alt="churrasquito"
           /></a>
-        </div>
-        <br />
         <p>Juguete churrasquito</p>
         <p>$150</p>
+        </div>
         <div>
-          <a href="www.imagen.com"
+          <a href="#"
             ><img src="img/comedero.jpg" alt="comedero"
           /></a>
-        </div>
         <p>Juguete churrasquito</p>
         <p>$150</p>
+      </div>
         <div>
-          <a href="www.imagen.com"
+          <a href="#"
             ><img src="img/Huesito.png" alt="Huesito"
           /></a>
-        </div>
         <p>Juguete churrasquito</p>
         <p>$150</p>
+      </div>
       </section>
     </main>
     <footer>
-      <p align="center">Todos los derechos reservados Front End</p>
+      <div class="footer1">
+        <h3><i class="fas fa-envelope-open"></i>Suscríbete para más novedades</h3>
+        <p class="suscrib">Suscribirme</p>
+    </div>
+    <div>
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Localidad</h3>
+        <p> Calle - Provincia </p>
+        <i class="fas fa-phone-square-alt"></i>
+        <h3>Teléfono</h3>
+        <p> Número de teléfono </p>
+        <i class="far fa-envelope"></i>
+        <h3>Correo Electrónico</h3>
+        <p> Dirección de correo </p>
+    </div>
+    <div>
+        <h3><i class="fas fa-dog"></i>
+          <span class="front">Front</span>  Cat&Dog
+          <i class="fas fa-cat"></i></h3>
+    </div>
+
+    <div class="footer3">
+    <p>Todos los derechos reservados Front End</p>
+    </div>
+</footer>
     </footer>
   </body>
 </html>
