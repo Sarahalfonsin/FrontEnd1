@@ -78,6 +78,9 @@ nav>ul>li>a {
     color: #F3F3F3;
     padding: 5px;
 }
+a:hover{
+    background-color: rgba(109, 255, 211, 0.479)
+  }
 .fa-paw{
     padding-right: 2px;
 }
@@ -189,6 +192,9 @@ padding-top: 15px;
 
 img{
     width: 100%;
+}
+img:hover{
+    transform: scale(0.9);
 }
 .section3>p {
     color: #3C2313;
