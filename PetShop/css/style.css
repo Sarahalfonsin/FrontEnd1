@@ -264,18 +264,32 @@ footer div>p {
 .front {
     color: #F0A83E;
 }
-.prueba{
+.ordenar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.final{
+    display: flex;
+    margin-left: 15px;
+    padding-top: 9px;
+}
+.texto{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
 }
-
+.loogo{
+    padding-right: 170px;
+    padding-top: 15px;
+}
 /*Footer3*/
 .footer3 {
     background-color: #222222;
-    
     text-align: center;
-    font-size: 10px;
 }
-.final{
-    color: #FFFFFF;
+.pfin{
+    color:white;
+    font-size: 10px;
 }
