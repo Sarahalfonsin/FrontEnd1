@@ -81,6 +81,9 @@ main {
   width: 50%;
   height: 350px;
 }
+.boxIzquierda:hover{
+  transform: scale(1.1);
+}
 .boxIzquierda h3 {
   margin-left: 30px;
   margin-top: 20px;
@@ -102,6 +105,9 @@ main {
   border-radius: 10px;
   width: 50%;
   height: 350px;
+}
+.boxDerecha:hover{
+  transform: scale(1.1);
 }
 .boxDerecha h3 {
   margin-top: 33px;
