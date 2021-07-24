@@ -181,7 +181,7 @@ padding-top: 15px;
 .section3 {
     display: flex;
     justify-content: center;
-    font-family:'Roboto', sans-serif; ;
+    font-family:'Roboto', sans-serif; 
     font-weight: 600;
     font-size: 15px;
     text-align: center;
@@ -204,6 +204,61 @@ img:hover{
     color: #F0A83E;
 }
 
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif; ;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+::placeholder { color: rgb(255, 255, 255); }
+
+.inputContacto{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color:  rgba(60, 35, 19, 1);
+    margin: 5px;
+    padding-left: 20px;
+    font-size: 9px;
+}
+
+.boton1{
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #F0A83E;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+.boton2{
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgba(138, 135, 135, 1);
+    margin: 5px;
+    margin-bottom: 75px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
 /*Footer 1 */
 
 .footer1 {
@@ -214,20 +269,40 @@ img:hover{
     height: 60px;
 }
 
-.suscrib {
-    height: 34px;
-    width: 70px;
-    left: 907px;
-    top: 1462px;
+.inputTexto{
+    border: none;
     border-radius: 15px;
-    background-color: #3C2313;
-    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    width: 270px;
+}
+.bottonSus{
+    width: 80px;
+    height: 34px;
+    border-radius: 15px;
+    border: none;
+    background: rgba(60, 35, 19, 1);
+    color: #FFFFFF;
     font-size: 9px;
     font-weight: 700;
-    padding: 12px 11px 10px;
-    margin-right: 20px;
+    cursor: pointer;
+    margin-right: 40px;
 }
-
+.footer1>form>::placeholder { 
+    color: #A0A0A0;
+    font-size: 9px;
+    font-family:'Roboto', sans-serif ;
+    padding-left: 6px;
+}
+input:focus { 
+    outline:none;
+    border-color: #00ffd5;
+    box-shadow: 0 0 10px #00ccff;
+}
+.footer1>form>input:focus { 
+    outline:none;
+    border-color: #ffae00;
+    box-shadow: 0 0 10px #ffd900;
+}
 .fa-envelope-open {
     font-size: 30px;
     color: white;
