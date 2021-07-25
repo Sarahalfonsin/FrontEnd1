@@ -210,6 +210,12 @@ img:hover{
     justify-content: center;
     align-items: center;
 }
+.forms input[type="text"]{
+    color: white;
+}
+.forms input[type="text"]:hover{
+    transform: scale3d(1.1.9)
+}
 .cont{
     color: #3C2313;
     font-family: 'Roboto', sans-serif; ;
@@ -229,6 +235,9 @@ img:hover{
     margin: 5px;
     padding-left: 20px;
     font-size: 9px;
+}
+.inputContacto input[type="text"]{
+    color: white;
 }
 
 .boton1{
@@ -274,6 +283,7 @@ img:hover{
     border-radius: 15px;
     height: 40px;
     width: 270px;
+    padding-left: 10px;
 }
 .bottonSus{
     width: 80px;
@@ -291,7 +301,6 @@ img:hover{
     color: #A0A0A0;
     font-size: 9px;
     font-family:'Roboto', sans-serif ;
-    padding-left: 6px;
 }
 input:focus { 
     outline:none;
