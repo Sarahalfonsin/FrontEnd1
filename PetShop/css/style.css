@@ -214,7 +214,7 @@ img:hover{
     color: white;
 }
 .forms input[type="text"]:hover{
-    transform: scaleZ(5.0)
+    transform: scaleY(1.09)
 }
 .cont{
     color: #3C2313;
