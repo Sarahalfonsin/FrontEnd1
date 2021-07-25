@@ -26,7 +26,19 @@
 .todoelnav {
     align-self: center;
     margin-right: 70px;
+    display: flex;
 }
+.botonazo{
+background-color: #F0A83E;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    margin-right: 2px;
+}
+
+
 
 .Moneda,
 .Idioma {
