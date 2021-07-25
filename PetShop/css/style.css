@@ -35,7 +35,6 @@ background-color: #F0A83E;
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
     border: none;
-    margin-right: 2px;
 }
 
 .Moneda,
@@ -45,6 +44,8 @@ background-color: #F0A83E;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
+    margin-left:10px;
+    border:none;
 }
 
 
