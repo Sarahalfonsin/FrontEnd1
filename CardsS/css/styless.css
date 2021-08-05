@@ -235,7 +235,35 @@ footer>div>img{
 
 /* QUERIES*/
 /**---ADAPTACION TABLET---**/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 2560px) {
+    .botoneizou{
+        left: 78%;
+    }
+}
+@media screen and (max-width: 2000px) {
+    .botoneizou{
+        left: 89%;}
+}
+@media screen and (max-width: 1025px) {
+    .head1{
+        background-color:#1CD1B0;
+        padding-top: 10px; 
+        height:38px;
+    }
+    .card{
+            flex-direction: column;
+          
+    }
+    .contenedorHijo{
+        margin-top: 2rem;
+        justify-content: center;
+    }
+    .botoneizou{
+        left: 80%;
+    top: 50%;
+    }
+}
+@media screen and (max-width: 760px) {
     .head1{
         background-color: #D1891C;
         padding-top: 10px; 
@@ -264,7 +292,6 @@ footer>div>img{
 @media screen and (max-width:460px){
     .card{
         flex-direction: column;
-        flex-wrap: wrap;
      
 }
    .contenedorHijo{
