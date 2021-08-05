@@ -245,19 +245,6 @@ footer>div>img{
         left: 89%;}
 }
 @media screen and (max-width: 1333px) {
-    .head1{
-        background-color:#1CD1B0;
-        padding-top: 10px; 
-        height:38px;
-    }
-    .card{
-            flex-direction: column;
-          
-    }
-    .contenedorHijo{
-        margin-top: 2rem;
-        justify-content: center;
-    }
     .botoneizou{
         left: 80%;
     top: 50%;
