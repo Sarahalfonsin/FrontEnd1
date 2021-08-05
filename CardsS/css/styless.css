@@ -264,6 +264,7 @@ footer>div>img{
 @media screen and (max-width:460px){
     .card{
         flex-direction: column;
+        flex-wrap: wrap;
      
 }
    .contenedorHijo{
