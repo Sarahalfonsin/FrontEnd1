@@ -37,24 +37,31 @@ display: flex;
 }
 nav{
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     background-color: #001D2D;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-nav ul{
+nav>ul{
     list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: flex-end;
-    padding-right: 4rem;
-    
+    margin-right: 45px;
 }
+
 
 nav a{
     text-decoration: none;
-    color: white;
-    padding-left: 20px;
+    color: #F3F3F3;
+    padding: 0px 10px;
 }
+nav a:hover{
+    background-color: teal;
+}
+
 /*Main*/
 
 
@@ -83,7 +90,7 @@ margin-right: 40px;
     top: 134px;
 
 }
-
+/*textos cards*/
 .desc {
     
     font-family: "Roboto",sans-serif;
@@ -110,7 +117,8 @@ margin-right: 40px;
     margin-left: 10px;
     margin-right: 10px;
 }
-.desc a {
+
+input[type="submit"]  {
     padding: 10px 30px;
     
     text-align: center;
@@ -119,7 +127,12 @@ margin-right: 40px;
 
     color: white;
     background-color: #00669F;
+    border: none;
 }
+input:hover{
+    color:rgb(8, 229, 245);
+}
+
 
 .fas{
     position: absolute;
@@ -152,7 +165,24 @@ margin-right: 40px;
     border-radius: 5%;
 }
 
+/*Mujer maravilla¨*/
+.mujerM {
+    height: 600px;
+    width: 300px;
 
+    position: relative; 
+
+    background-image: url("../img/fondoMujerMaravilla.png");
+    background-repeat: no-repeat;
+    background-size:19.7rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color:#F3F3F3;
+    border-radius: 5%;
+}
 /*<!--Harley-->*/
 .Harley {
     height: 600px;
@@ -171,23 +201,7 @@ margin-right: 40px;
     border-radius: 5%;
 }
 
-.mujerM {
-    height: 600px;
-    width: 300px;
 
-    position: relative; 
-
-    background-image: url("../img/fondoMujerMaravilla.png");
-    background-repeat: no-repeat;
-    background-size:19.7rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-color:#F3F3F3;
-    border-radius: 5%;
-}
 
 /*<!--SegundoBatman-->*/
 .superman {
@@ -216,7 +230,7 @@ margin-right: 40px;
     top: 7.5rem;
 }
 
-
+/*Boton fijo*/
 .botoneizou{
     width:60px;
     height: 60px;
@@ -234,6 +248,9 @@ margin-right: 40px;
     z-index: 100;
     position: fixed;
     left: 95%;
+}
+.botoneizou:hover{
+    color:rgb(8, 229, 245);
 }
 /*<!--footer-->*/
 footer {
