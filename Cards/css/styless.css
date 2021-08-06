@@ -133,7 +133,7 @@ main {
     padding-right: 0.4rem;
 }
 
-input[type="submit"] {
+.input {
     padding: 10px 30px;
 
     text-align: center;
@@ -145,7 +145,7 @@ input[type="submit"] {
     border: none;
 }
 
-input:hover {
+.input:hover {
     color: rgb(8, 229, 245);
 }
 
