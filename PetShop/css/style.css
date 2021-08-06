@@ -6,6 +6,10 @@
 
 
 /*Header*/
+.boton1,.boton2, .botonazo, .bottonSus{
+    all: unset;
+    text-align: center;
+}
 .headerSup {
     background-color: #222222;
     height: 20px;
@@ -28,11 +32,11 @@
     display: flex;
 }
 .botonazo{
-background-color: #F0A83E;
+background-color: #fca92d;
+padding:2px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
     border: none;
 }
 
@@ -40,7 +44,6 @@ background-color: #F0A83E;
 .Idioma {
     background-color: #222222;
     color: white;
-    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
     margin-left:10px;
@@ -257,6 +260,7 @@ img:hover{
     border-radius: 15px;
     background-color: #F0A83E;
     color: white;
+    font-family:'Roboto', sans-serif;  ;
     font-size: 16px;
     margin: 5px;
     border: none;
@@ -274,6 +278,7 @@ img:hover{
     cursor: pointer;
     color: white;
     font-size: 16px;
+    font-family:'Roboto', sans-serif;  
 }
 
 
