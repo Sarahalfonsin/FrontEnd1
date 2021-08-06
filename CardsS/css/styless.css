@@ -49,7 +49,6 @@ nav>ul{
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: flex-end;
-    margin-right: 45px;
 }
 
 
@@ -71,15 +70,15 @@ main {
 }
 
 .card{
-    padding: 4rem 0rem;
     display: flex;
     justify-content: center;
-
+padding-top:40px;
+padding-bottom:40px;
 }
 .contenedorHijo{
 display: flex;
-gap:40px;
-margin-right: 40px;
+gap:10px;
+margin-right: 10px;
 }
 
 .logo {
@@ -269,10 +268,6 @@ footer {
     align-items: center;
 
 }
-footer>p{
-    padding-left: 240px;
-
-}
 
 footer>div>img{
     margin-top: 10px;
@@ -358,34 +353,16 @@ text-decoration: none;
 font-size: 20px;
 }
 
-
 /* QUERIES*/
 /**---ADAPTACION TABLET---**/
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 2460px){
     .botoneizou{
-        left: 78%;
+        top: 28%;
+        left: 76%;
     }
 }
-@media screen and (max-width: 2000px) {
-    .botoneizou{
-        left: 89%;}
-}
-@media screen and (max-width: 1025px) {
-    
-    .card{
-            flex-direction: column;
-          
-    }
-    .contenedorHijo{
-        margin-top: 2rem;
-        justify-content: center;
-    }
-    .botoneizou{
-        left: 80%;
-    top: 50%;
-    }
-}
-@media screen and (max-width: 760px) {
+
+@media screen and (max-width: 1128px) {
     
     .card{
             flex-direction: column;
@@ -395,16 +372,18 @@ font-size: 20px;
     .contenedorHijo{
         margin-top: 2rem;
         justify-content: center;
+        gap:40px;
         
     }
     .desc {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
     .desc h2{
        font-size: 1.7rem;
     }
     .botoneizou{
-        left: 85%;
+        top: 60%;
+        left: 90%;
     }
 }
 @media screen and (max-width:460px){
@@ -418,9 +397,7 @@ font-size: 20px;
     align-items: center;
    }
    
-   .desc {
-    font-size: 0.9rem;
-}
+   
 footer{
     padding-right: 15px;
 }
