@@ -133,7 +133,7 @@ main {
     padding-right: 0.4rem;
 }
 
-.input {
+.inputacion {
     padding: 10px 30px;
 
     text-align: center;
@@ -145,7 +145,7 @@ main {
     border: none;
 }
 
-.input:hover {
+.inputacion:hover {
     color: rgb(8, 229, 245);
 }
 
