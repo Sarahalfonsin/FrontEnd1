@@ -6,7 +6,8 @@
 
 
 /*Header*/
-.boton1,.boton2, .botonazo, .bottonSus{
+
+.boton1,.boton2, .botonazo, .bottonSus, .Idioma, .Moneda{
     all: unset;
     text-align: center;
 }
@@ -47,9 +48,10 @@ padding:2px;
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
     margin-left:10px;
-    border:none;
 }
-
+.Moneda{
+    padding-top: 2px;
+}
 
 /* Segundo Head*/
 
