@@ -298,7 +298,7 @@ main {
 }
 
 .botoneizou:hover {
-    color: rgb(8, 229, 245);
+    color: rgb(134, 136, 250);
 }
 
 .botoneizou {
@@ -308,14 +308,13 @@ main {
 
 @keyframes color-change-2x {
     0% {
-        background: rgb(1, 102, 255);
+        background:rgba(247, 0, 136, 0.77)
     }
 
     100% {
-        background: rgb(55, 185, 245);
+        background: rgb(0,174,255,0.88)
     }
 }
-
 
 
 
