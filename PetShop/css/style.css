@@ -246,7 +246,19 @@ img:hover{
 .forms input[type="text"]{
     color: white;
 }
+.forms input[type="email"]{
+    color: white;
+}
+.forms input[type="tel"]{
+    color: white;
+}
 .forms input[type="text"]:hover{
+    transform: scaleY(1.09)
+}
+.forms input[type="email"]:hover{
+    transform: scaleY(1.09)
+}
+.forms input[type="tel"]:hover{
     transform: scaleY(1.09)
 }
 .cont{
