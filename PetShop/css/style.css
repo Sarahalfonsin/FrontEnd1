@@ -7,7 +7,7 @@
 
 /*Header*/
 
-.boton1,.boton2, .botonazo, .bottonSus, .Idioma, .Moneda{
+.boton1,.boton2, .botonazo, .bottonSus{
     all: unset;
     text-align: center;
 }
@@ -48,9 +48,7 @@ padding:2px;
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
     margin-left:10px;
-}
-.Moneda{
-    padding-top: 2px;
+    border: none;
 }
 
 /* Segundo Head*/
