@@ -93,14 +93,25 @@ nav>ul>li>a {
     text-decoration: none;
     color: #F3F3F3;
     padding: 5px;
+} 
+nav>ul>li>a::before{
+    content:"\f1b0";
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    color: #fff;
+    padding-right: 5px;
 }
 a:hover{
     background-color: rgba(109, 255, 211, 0.479)
   }
-.fa-paw{
+  .fa-paw{
     padding-right: 2px;
 }
 
+.fa-bars{
+    font-size: 20px;
+    display: none;
+}
 /* main*/
 
 main {
@@ -123,7 +134,7 @@ main {
 }
 
 .cuadrado {
-    width: 365px;
+    max-width: 365px;
     height: 54px;
     border-radius: 5px;
     padding: 9px 10px;
@@ -191,9 +202,17 @@ padding-top: 15px;
     text-decoration: none;
     color: #666666;
     font-size: 15px;
+    margin-right: 7px;
 }
-
-
+.section2 div>ul>li>a::before{
+    content:"-";
+    font-weight: 900;
+    color: #666666;
+    padding-right: 7px;
+} 
+.section2 div>ul>li>a:nth-child(1)::before{
+    content:"";
+}
 .section3 {
     display: flex;
     justify-content: center;
@@ -207,7 +226,7 @@ padding-top: 15px;
 
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 img:hover{
     transform: scale(0.9);
@@ -243,7 +262,7 @@ img:hover{
 ::placeholder { color: rgb(255, 255, 255); }
 
 .inputContacto{
-    width: 340px;
+    min-width: 300px;
     height: 40px;
     border-radius: 15px;
     border: none;
@@ -252,9 +271,7 @@ img:hover{
     padding-left: 20px;
     font-size: 9px;
 }
-.inputContacto input[type="text"]{
-    color: white;
-}
+
 
 .boton1{
     width: 110px;
@@ -299,10 +316,11 @@ img:hover{
 .inputTexto{
     border: none;
     border-radius: 15px;
-    height: 40px;
-    width: 270px;
-    padding-left: 10px;
+    height: 46px;
+    width: 180px;
+    padding-left: 8px;
 }
+
 .bottonSus{
     width: 80px;
     height: 34px;
@@ -313,7 +331,7 @@ img:hover{
     font-size: 9px;
     font-weight: 700;
     cursor: pointer;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .footer1>form>::placeholder { 
     color: #A0A0A0;
@@ -400,4 +418,92 @@ footer div>p {
 .pfin{
     color:white;
     font-size: 10px;
+}
+
+/*Media query*/
+ @media screen and (max-width:600px){
+    .headerSup{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .headerInf{
+font-size: 11px;;
+    }
+    .icono-menu{
+        display: block;
+        color: white;
+        padding-right: 15px;
+       
+    }
+    .cuadrado{
+        font-size: 25px;
+    }
+    .desc {
+        font-size: 16px;
+
+        color: #ffffff;
+    
+    }
+    
+    .cuadro {
+        width: 141px;
+        height: 49px;
+        background: #F0A83E;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        padding: 15px 23px;
+    }
+    
+    .cuadro>a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .footer1{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        line-height: 40px;
+height :101px;
+    }
+h3{
+        font-size: 16px;
+    }
+    .fa-envelope-open {
+        padding-top: 5px;
+        font-size: 15px;
+    }
+.inputTexto{
+    margin-left: 10px;
+    
+}
+.bottonSus{
+height: auto;
+}
+
+
+
+.final{
+    margin-bottom: 5px;
+}
+    .ordenar{
+flex-direction: column;
+align-items: flex-start;
+    }
+
+    
+    .Sarah{
+       order:-1; 
+    }
+    .loogo{
+        margin-left :25px;
+        padding-right: 0;
+    }
 }
