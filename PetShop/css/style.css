@@ -54,6 +54,7 @@ padding:2px;
 /* Segundo Head*/
 /*hamburguesa*/
 .nav {
+    all:unset;
     border-bottom: 1px solid #ffffff;
     color: white;
     text-align: right;
