@@ -7,7 +7,7 @@
 
 /*Header*/
 
-.boton1,.boton2, .botonazo, .bottonSus{
+.boton1,.boton2, .botonazo, .bottonSus,.nav{
     all: unset;
     text-align: center;
 }
