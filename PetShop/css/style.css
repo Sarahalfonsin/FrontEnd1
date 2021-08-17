@@ -52,6 +52,44 @@ padding:2px;
 }
 
 /* Segundo Head*/
+/*hamburguesa*/
+.nav {
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    display:none;
+z-index: 2;
+  }
+  
+  .menu {
+    margin: 0 30px 0 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    line-height: 70px;
+  /* ojo con clear el clear, es bueno pero hay que saber hacia donde vamos a limpiar   */
+    clear: right;
+  }
+  
+  
+  .labell {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  /*hambuguesa*/
 
 .headerInf {
     background-color: #F0A83E;
@@ -432,6 +470,29 @@ footer div>p {
 
 /*Media query*/
  @media screen and (max-width:600px){
+
+    /*hamburguesa*/
+    .nav{
+        display:block;
+      }
+      .labell {
+        display: block;
+        cursor: pointer;
+      }
+      .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+      }
+      .menu a {
+        display: block;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        margin: 0;
+        background-color: rgb(240, 168, 62)
+      }
+      #toggle:checked + .menu {
+        display: block;
+      }
     .headerSup{
         display: none;
     }
