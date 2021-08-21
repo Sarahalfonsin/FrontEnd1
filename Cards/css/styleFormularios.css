@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla&display=swap');
+
+*{
+    box-sizing: border-box; 
+    margin: 0%;
+ }
+:root {
+    --primer-color: #00669F;
+    --segundo-color: #1CD1B0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5e5;
+}
+/**-----------FORMULARIO LOGIN----------**/
+.formularioIndex{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.formularioIndex input{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+header>div>a{
+    text-decoration: none;
+  color: white;
+  
+}
+input:valid{
+    border: 2px solid var(--segundo-color);  
+}
+
+
+input[type=email]:valid{
+    border: 2px solid var(--segundo-color);  
+
+}
+
+input:focus::placeholder { 
+    color: transparent;
+ }
+
+.formularioIndex input[type= submit]{
+    background-color: var(--segundo-color);
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-color: transparent;
+}
+.formularioIndex input[type= submit]:hover{
+    background-color:var(--primer-color);
+    color: white;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+
+.registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+}
+.registro>p{
+    color: var(--primer-color);
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+/**--FORMULARIO REGISTRO--------------------*/
+
+select{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: 1px solid black;
+}
+.btn-registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    
+}
+.btn-registro input{
+    width: 40%;
+    
+}
+.button{
+    background-color:#888888;
+    color: white;
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border:none;
+}
+.button:hover{
+    background-color: var(--segundo-color);
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*medias*/
+@media screen and (max-width:600px) {
+    .formularioIndex {
+        width: 80%;
+        
+    }
+    
+}

@@ -1,0 +1,33 @@
+main {
+  margin: 40px auto;
+  width: 70%;
+
+  section {
+    h3 {
+      padding: 10px;
+      background: $color-principal;
+      color: $subtitulos;
+      letter-spacing: 5px;
+    }
+    ul{
+        li{
+            span{
+                font-style: italic;
+                font-weight: $principal-items;
+            }
+        }
+    }
+    dl{
+        line-height: 22px;
+        dt{
+            span{
+                font-weight: $principal-items;
+            }
+        }
+        dd{
+            padding-bottom: 8px;
+            margin-inline-start: 79px;
+        }
+    }
+  }
+}
