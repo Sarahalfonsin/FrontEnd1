@@ -8,6 +8,9 @@
     --primer-color: #00669F;
     --segundo-color: #1CD1B0;
 }
+input, select, textarea, button{
+    all: unset;
+    }
 
 /*Header*/
 .head1 {
