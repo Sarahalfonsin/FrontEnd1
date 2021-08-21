@@ -1,541 +1,514 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0%;
+  box-sizing: border-box;
+  margin: 0%;
 }
 :root {
-    --primer-color: #00669F;
-    --segundo-color: #1CD1B0;
+  --primer-color: #00669f;
+  --segundo-color: #1cd1b0;
 }
-input[type="reset"],input[type="submit"] {
-    all: unset;
-    }
-
+input[type="reset"] {
+  all: unset;
+}
+input[type="submit"] {
+  all: unset;
+}
 /*Header*/
 .head1 {
-    background-color: var(--segundo-color);
-    padding-top: 10px;
-    height: 38px;
+  background-color: var(--segundo-color);
+  padding-top: 10px;
+  height: 38px;
 }
 
 .head1 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    z-index: 999;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .textHeader {
-    background-color: #00669F;
-    height: 101px;
-    box-shadow: 0px 1px 4px 7px rgba(0, 0, 0, 0.25);
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    align-items: center;
-    color: white;
-    padding-left: 15px;
-
+  background-color: #00669f;
+  height: 101px;
+  box-shadow: 0px 1px 4px 7px rgba(0, 0, 0, 0.25);
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  align-items: center;
+  color: white;
+  padding-left: 15px;
 }
 
-.textHeader>p {
-    padding-left: 0px;
+.textHeader > p {
+  padding-left: 0px;
 }
 
 nav {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    background-color: #001D2D;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background-color: #001d2d;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-nav>ul {
-    list-style: none;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: flex-end;
+nav > ul {
+  list-style: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: flex-end;
 }
-
 
 nav a {
-    text-decoration: none;
-    color: #F3F3F3;
-    padding: 0px 10px;
+  text-decoration: none;
+  color: #f3f3f3;
+  padding: 0px 10px;
 }
 
 nav a:hover {
-    background-color: teal;
+  background-color: teal;
 }
 
 /*Main*/
 
-
 /*<!--main-->*/
 main {
-    background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .card {
-    max-width: 1300px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-
-
 .card-super {
-    max-width: 20%;
-    margin: 5px;
+  max-width: 20%;
+  margin: 5px;
 }
 
 .logo {
-    border-radius: 50%;
+  border-radius: 50%;
 
-    position: absolute;
-    left: 90px;
-    top: 134px;
-
+  position: absolute;
+  left: 90px;
+  top: 134px;
 }
 
 /*textos cards*/
 .desc {
-
-    font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
-    font-weight: 400;
-    line-height: 1.2rem;
-   /* margin-top: 130px; Dentro de card trabajemos con paddings así separamos el contenido del borde*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Cambiamos margin-top por padding-top */
-    padding:3.4rem  0.1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  /* margin-top: 130px; Dentro de card trabajemos con paddings así separamos el contenido del borde*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Cambiamos margin-top por padding-top */
+  padding: 3.4rem 0.1rem;
 }
 
 .desc h2 {
-    padding-bottom: 0.7rem;
-    font-size: 1.4rem;
-    font-weight: bolder;
-
+  padding-bottom: 0.7rem;
+  font-size: 1.4rem;
+  font-weight: bolder;
 }
 
 .desc p {
-    color: #333333;
-    text-align:left;
-    padding-bottom: 0.5rem;
-    padding-left: 0.4rem;
-    padding-right: 0.4rem;
+  color: #333333;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
 }
 
 .inputacion {
-    padding: 10px 30px;
+  padding: 10px 30px;
 
-    text-align: center;
+  text-align: center;
 
-    text-decoration: none;
+  text-decoration: none;
 
-    color: white;
-    background-color: #00669F;
-    border: none;
+  color: white;
+  background-color: #00669f;
+  border: none;
 }
 
 .inputacion:hover {
-    color: rgb(8, 229, 245);
+  color: rgb(8, 229, 245);
 }
 
-
 .fas {
-    position: absolute;
-    top: 0.5rem;
-    left: 0.5rem;
-    width: 3rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 3rem;
 }
 
 .fa-heart {
-    width: 15px;
-    color: rgb(216, 36, 36);
-    display: flex;
-    align-items: flex-start;
+  width: 15px;
+  color: rgb(216, 36, 36);
+  display: flex;
+  align-items: flex-start;
 }
 
 /*<!--Primer Batman-->*/
 .card-fondo {
-    position: relative;
+  position: relative;
 }
 
 .Batman {
-    height: 500px;
-    /*  width: 300px;*/
+  height: 500px;
+  /*  width: 300px;*/
 
-    position: relative;
+  position: relative;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-color: #F3F3F3;
-    border-radius: 5%;
+  background-color: #f3f3f3;
+  border-radius: 5%;
 }
 
 .Batman .card-fondo {
-    background-image: url("../img/fondoCardBatman.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 250px;
-    border-radius: 5% 5% 0% 0%;
+  background-image: url("../img/fondoCardBatman.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  border-radius: 5% 5% 0% 0%;
 }
 
 /*Mujer maravilla¨*/
 .mujerM {
-    height: 500px;
-    /*  width: 300px;*/
-    position: relative;
+  height: 500px;
+  /*  width: 300px;*/
+  position: relative;
 
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: #F3F3F3;
-    border-radius: 5%;
+  background-color: #f3f3f3;
+  border-radius: 5%;
 }
 
 .mujerM .card-fondo {
-    background-image: url("../img/fondoMujerMaravilla.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 2500px;
-    border-radius: 5% 5% 0% 0%;
+  background-image: url("../img/fondoMujerMaravilla.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 2500px;
+  border-radius: 5% 5% 0% 0%;
 }
 
 /*<!--Harley-->*/
 .Harley {
-    height: 500px;
-    /* width: 300px;*/
+  height: 500px;
+  /* width: 300px;*/
 
-    position: relative;
+  position: relative;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: #F3F3F3;
-    border-radius: 5%;
+  background-color: #f3f3f3;
+  border-radius: 5%;
 }
 
 .Harley .card-fondo {
-    background-image: url("../img/fondoHarley.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 250px;
-    border-radius: 5% 5% 0% 0%;
+  background-image: url("../img/fondoHarley.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  border-radius: 5% 5% 0% 0%;
 }
 
 /*<!--Superman-->*/
 .superman {
-    height: 500px;
-    /*  width: 300px;*/
+  height: 500px;
+  /*  width: 300px;*/
 
-    position: relative;
+  position: relative;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: #F3F3F3;
-    border-radius: 5%;
+  background-color: #f3f3f3;
+  border-radius: 5%;
 }
 
 .superman .card-fondo {
-    background-image: url("../img/fondoSuperman.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 250px;
-    position: relative;
-    border-radius: 5% 5% 0% 0%;
+  background-image: url("../img/fondoSuperman.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  border-radius: 5% 5% 0% 0%;
 }
 
 .imgsuper {
-    width: 7.2rem;
-    border-radius: 50%;
+  width: 7.2rem;
+  border-radius: 50%;
 
-    position: absolute;
-    /*como sacamos el margin-top de desc, trabajamos con bottom */
-   /* top: 160px;*/
-    left:calc(50% - 3rem);
-    bottom: -40px;
+  position: absolute;
+  /*como sacamos el margin-top de desc, trabajamos con bottom */
+  /* top: 160px;*/
+  left: calc(50% - 3rem);
+  bottom: -40px;
 }
 
 /*Boton fijo*/
 .botoneizou {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #00669F;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #00669f;
 
+  display: flex;
+  justify-content: center;
 
-    display: flex;
-    justify-content: center;
+  color: white;
+  font-size: 2.2rem;
 
-
-    color: white;
-    font-size: 2.2rem;
-
-    z-index: 100;
-    position: fixed;
-    left: 95%;
+  z-index: 100;
+  position: fixed;
+  left: 95%;
 }
 
 .botoneizou:hover {
-    color: rgb(134, 136, 250);
+  color: rgb(134, 136, 250);
 }
 
 .botoneizou {
-    -webkit-animation: color-change-2x 2s linear infinite alternate both;
-    animation: color-change-2x 2s linear infinite alternate both;
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
 }
 
 @keyframes color-change-2x {
-    0% {
-        background:rgba(247, 0, 136, 0.77)
-    }
+  0% {
+    background: rgba(247, 0, 136, 0.77);
+  }
 
-    100% {
-        background: rgb(0,174,255,0.88)
-    }
+  100% {
+    background: rgb(0, 174, 255, 0.88);
+  }
 }
-
-
-
 
 /*<!--footer-->*/
 footer {
-    padding-right: 60px;
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.2rem;
+  padding-right: 60px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
 
-    background-color: #00669F;
-    color: white;
+  background-color: #00669f;
+  color: white;
 
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-footer>div>img {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 40px;
+footer > div > img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
 }
 
 /* Harley QUIIN*/
 /*** harley**/
 .harly {
-    background-image: url('../img/bg\ 1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 0px;
-    display: flex;
-    justify-content: center;
-
+  background-image: url("../img/bg\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .contharly {
-    width: 656px;
+  width: 656px;
 
-    background-color: white;
-    text-align: center;
-    border-radius: 50px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
 }
 
 .fotitoHarley {
-    border-radius: 50%;
-    position: relative;
-    bottom: 70px;
-    left: 29px;
-
+  border-radius: 50%;
+  position: relative;
+  bottom: 70px;
+  left: 29px;
 }
 
-.texti>h2 {
-    font-family: "Roboto", sans-serif;
-    color: #2C0187;
-    text-decoration: underline;
-    font-size: 40px;
+.texti > h2 {
+  font-family: "Roboto", sans-serif;
+  color: #2c0187;
+  text-decoration: underline;
+  font-size: 40px;
 
-    position: relative;
-    left: 10px;
-    bottom: 40px;
-    padding-bottom: 20px;
+  position: relative;
+  left: 10px;
+  bottom: 40px;
+  padding-bottom: 20px;
 }
 
-.texti>p {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-    text-align: left;
-    color: #333333;
+.texti > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  color: #333333;
 
-    position: relative;
-    padding-left: 23px;
-    padding-right: 23px;
-    bottom: 47px;
+  position: relative;
+  padding-left: 23px;
+  padding-right: 23px;
+  bottom: 47px;
 }
 
 .armas {
-    display: flex;
-    justify-content: space-evenly;
-    ;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .cora {
-    position: relative;
-    bottom: 50px;
-    right: 340px;
-
+  position: relative;
+  bottom: 50px;
+  right: 340px;
 }
 
 span {
-    color: #2C0187;
+  color: #2c0187;
 }
 
 .return {
-    background-color: #2C0187;
-    padding: 30px 0px;
-    margin-top: 30px;
-    border-radius: 0px 0px 50px 50px;
+  background-color: #2c0187;
+  padding: 30px 0px;
+  margin-top: 30px;
+  border-radius: 0px 0px 50px 50px;
 }
 
-.return>a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+.return > a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 /* QUERIES*/
 /**---ADAPTACION TABLET---**/
 
-@media screen and (min-width: 2460px){
-    .botoneizou{
-        top: 28%;
-        left: 76%;
-    }
-    .superman>.desc>p{
-font-size: 12px;
-    }
+@media screen and (min-width: 2460px) {
+  .botoneizou {
+    top: 28%;
+    left: 76%;
+  }
+  .superman > .desc > p {
+    font-size: 12px;
+  }
 }
-@media screen and (min-width: 1300px){
-    .botoneizou{
-        top: 28%;
-        left: 89%;
-    }
-    .desc{
-        color:#333333;
-        font-size: 12px;
-    }
+@media screen and (min-width: 1300px) {
+  .botoneizou {
+    top: 28%;
+    left: 89%;
+  }
+  .desc {
+    color: #333333;
+    font-size: 12px;
+  }
 }
 /*==== Modifico el maedia query de tablet a 990. Para este proyecto se adaptan mejor esas medidas ==== */
 @media screen and (max-width: 990px) {
+  .card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
-    .card {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+  .card-super {
+    max-width: 48%;
+  }
 
-    .card-super {
-        max-width: 48%;
-    }
+  .desc {
+    font-size: 0.9rem;
+  }
 
-    .desc {
-        font-size: 0.9rem;
-    }
+  .desc h2 {
+    font-size: 1.7rem;
+  }
 
-    .desc h2 {
-        font-size: 1.7rem;
-    }
-
-    .botoneizou {
-        top: 60%;
-        left: 90%;
-    }
+  .botoneizou {
+    top: 60%;
+    left: 90%;
+  }
 }
 
 /*==== Modifico el maedia query de mobile a 600. Para este proyecto se adaptan mejor esas medidas ==== */
 
-@media screen and (max-width:600px) {
-    .textHeader{
-    font-size:30px;
-    }
-    .card {
-        flex-direction: column;
+@media screen and (max-width: 600px) {
+  .textHeader {
+    font-size: 30px;
+  }
+  .card {
+    flex-direction: column;
+  }
 
-    }
+  .card-super {
+    max-width: 100%;
+  }
 
-    .card-super {
-        max-width: 100%;
-    }
+  .contenedorHijo {
+    flex-direction: column;
+    margin-right: 0;
+    align-items: center;
+  }
 
-    .contenedorHijo {
-        flex-direction: column;
-        margin-right: 0;
-        align-items: center;
-    }
+  footer {
+    padding-right: 15px;
+  }
 
+  footer > div > img {
+    height: 25px;
+  }
 
-    footer {
-        padding-right: 15px;
-    }
+  .botoneizou {
+    left: 82%;
+  }
 
-    footer>div>img {
-        height: 25px;
-    }
+  /*Harly*/
+  .harly {
+    padding: 100px 20px;
+  }
 
-    .botoneizou {
-        left: 82%;
-    }
+  .texti > h2 {
+    font-size: 30px;
+  }
 
-    /*Harly*/
-    .harly {
-        padding: 100px 20px;
-    }
+  .texti > p {
+    font-size: 12px;
+  }
 
-    .texti>h2 {
-        font-size: 30px;
-    }
-
-    .texti>p {
-        font-size: 12px;
-    }
-
-    .cora {
-        position: relative;
-        bottom: 50px;
-        right: 160px;
-
-    }
-
+  .cora {
+    position: relative;
+    bottom: 50px;
+    right: 160px;
+  }
 }
-
-
