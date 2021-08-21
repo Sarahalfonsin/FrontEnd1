@@ -8,7 +8,7 @@
     --primer-color: #00669F;
     --segundo-color: #1CD1B0;
 }
-input[type="reset"] {
+input[type="reset"], input[type="submit"] {
     all: unset;
     }
 
