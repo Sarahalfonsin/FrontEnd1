@@ -1,0 +1,158 @@
+/*colores*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+}
+
+span {
+  background: #92f7f2;
+  background: linear-gradient(180deg, #92f7f2 48%, white 56%, white 69%);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid;
+  box-shadow: -5px -1px #92f7f2;
+  text-align: center;
+  padding-top: 11px;
+  margin-bottom: 10px;
+}
+
+.iconw {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: -5px -1px #92f7f2;
+  text-align: center;
+}
+
+header {
+  margin-left: 20px;
+  padding: 30px;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+header div h2 {
+  font-weight: bold;
+}
+
+header div nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header div nav ul li {
+  padding: 7px;
+}
+
+header div nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+main .section1 {
+  display: flex;
+}
+
+main .section1 div h1 {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+main .section1 div p {
+  color: #8b8b8b;
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 20px;
+}
+
+main .section1 div ul {
+  padding-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+main .section1 div ul li {
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #03faee;
+  padding: 19px;
+  border-style: none;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
+
+main .section2 {
+  display: flex;
+  justify-content: center;
+}
+
+main .section2 div {
+  background-color: #8b8b8b18;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 300px;
+}
+
+main .section2 div p {
+  color: #8b8b8b;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  main .section2 div p {
+    font-size: 12px;
+  }
+}
+
+footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer div img {
+  margin-right: 20px;
+  width: 15px;
+}
+/*# sourceMappingURL=style.css.map */
