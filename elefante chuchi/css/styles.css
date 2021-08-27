@@ -120,7 +120,7 @@ body {
   width: 500px;
   margin: auto;
   position: absolute;
-  top: 50;
+  top: 500;
   right: 300;
   bottom: 0;
   left: 0;
@@ -146,10 +146,10 @@ body {
   height: 60%;
   width: 60%;
   position: absolute;
-  top: 320px;
+  top: 500px;
   color: whitesmoke;
   letter-spacing: -2px;
-  text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
+  text-shadow: 4px 0 10px rgb(255, 255, 255);
 }
 
 .layer:nth-child(1):after {
@@ -246,7 +246,7 @@ body {
 }
 
 .layer:last-child:after {
-  -webkit-text-stroke: 17px rgba(0, 0, 0, 0.1);
+  -webkit-text-stroke: 17px rgba(255, 255, 255, 0.1)
 }
 
 .layer:first-child:after {
