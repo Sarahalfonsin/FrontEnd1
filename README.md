@@ -7,6 +7,7 @@ Proyectos realizados a lo largo de la materia de FrontEnd I
 **LemonPie**
  - HTML
     - https://sarahalfonsin.github.io/FrontEnd1/LemonPie/ - 
+    
 **Batman CV**
  - HTML - CSS -SAAS
     - https://sarahalfonsin.github.io/FrontEnd1/CvBatman/ - 
@@ -16,18 +17,18 @@ Proyectos realizados a lo largo de la materia de FrontEnd I
     - https://sarahalfonsin.github.io/FrontEnd1/Pizzeria/
 
 
-**CardSuper **
+**CardSuper**
 - HTML - CSS - Responsive- Formularios- Animaciones
     - https://sarahalfonsin.github.io/FrontEnd1/Cards/index.html
 
-**Master Devs **
+**Master Devs**
 - HTML - CSS - Saas 
     - https://sarahalfonsin.github.io/FrontEnd1/MasterDev/
 
-**PetShop **
+**PetShop**
 - HTML - CSS- Animaciones- Formularios- Responsive
     - https://sarahalfonsin.github.io/FrontEnd1/PetShop/
 
 **Portfolio**
-- Bootstrap 
-    - 
+- Bootstrap
+    
