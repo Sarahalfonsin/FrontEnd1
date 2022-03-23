@@ -6,11 +6,11 @@ Proyectos realizados a lo largo de la materia de FrontEnd I
 ## Links de proyectos
 **LemonPie**
  - HTML
-    - https://sarahalfonsin.github.io/FrontEnd1/LemonPie/ - 
+    - https://sarahalfonsin.github.io/FrontEnd1/LemonPie/ 
     
 **Batman CV**
  - HTML - CSS -SAAS
-    - https://sarahalfonsin.github.io/FrontEnd1/CvBatman/ - 
+    - https://sarahalfonsin.github.io/FrontEnd1/CvBatman/ 
 
 **Pizzeria** 
 - HTML - CSS - Flexbox.
