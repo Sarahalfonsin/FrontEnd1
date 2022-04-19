@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="ccs/normalize.css" /> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" />
+  <link rel="shortcut icon" href="img/_123027.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/styless.css" />
+  <link rel="stylesheet" href="css/creacion.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="head1">
+    <p>20% de descuento en todos los productos!</p>
+  </div>
+
+    <!-- Aqui comienza el header -->
+    <header>
+      <div class="textHeader">
+        <img src="img/logo 1.png" alt="logo">
+        <a href="index.html"><p>HeroMarket</p></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="registro.html">Registrarme</a></li>
+          <li><a href="login.html">Ingresar</a></li>
+        </ul>
+      </nav>
+      <div>
+    </header>
+    <main>
+<div class="contPrin">
+<div>
+    <h1>Añadí tu super!</h1>
+    <p>Agregá tu personaje favorito completando las opciones.</p>
+</div>
+<form class="formu">
+    <div class="divIzq">
+
+        <label for="nombre">*Nombre</label>
+        <input type="text" id="nombre" placeholder="Nombre y Apellido" required>
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" value="dd/mm/aa" required>
+   <textarea name="description" cols="30" rows="20" spellcheck="false" placeholder="Descripcion" data-gramm="false"></textarea>
+    </div>
+    <div class="divDer">
+        <label for="Especie">*Especie</label>
+        <select name="Especie" id="Especie">
+            <option>Humanos</option>
+            <option>Kree</option>
+            <option>Skrull</option>
+            <option>Xandarian</option>
+            <option>Inhumano </option>
+            <option>Chitauri</option>
+            <option>Asgardianos</option>
+        </select>
+        <label for="foto">Agregar Foto</label>
+    <input type="file" id="foto" name="foto">
+    <div>
+    <label>Poderes</label>
+    <label>
+        <input type="checkbox" id="1"name="Volar"> Volar
+    </label>
+    <label>
+        <input type="checkbox" id="2"name="SuperInteligencia"> SuperInteligencia
+    </label>
+    <label>
+        <input type="checkbox" id="3"name="Vista de rayo láser">Vista de rayo láser
+    </label>
+    <label>
+        <input type="checkbox" id="4"name="Telequinesis"> Telequinesis
+    </label>
+    </div>
+    <hr>
+    <div>
+    <label>Tipo de personaje</label>
+    <label>
+        <input type="radio" id="1"name="pers">Héroe / Heroina
+    </label>
+    <label>
+        <input type="radio" id="1"name="pers">Villano / Villana
+    </label>
+</div>
+</div>
+<div>
+    <input type="submit" value="Añadir" id="entrar">
+</div>
+</div>
+</form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+    </body>

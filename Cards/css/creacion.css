@@ -1,0 +1,16 @@
+header>div>a{
+    text-decoration: none;
+  color: white;
+}
+main{
+    background-color:white;
+}
+.contPrin{
+    background-color:#00669F;
+    color:white;
+    width:70%;
+    margin:3rem auto;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+}
